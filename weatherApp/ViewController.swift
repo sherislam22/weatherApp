@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
                                      attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
 //        text.placeholder = "Навзвание города"
         text.returnKeyType = .done
+        text.clearButtonMode = .whileEditing
         text.keyboardType = UIKeyboardType.default
         return text
     }()
